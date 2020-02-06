@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eccomerce-Panaderia</title>
+	<link rel="stylesheet" type="text/css" href="default.css"><script src="https://kit.fontawesome.com/88943a256e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+	<nav class="nav">
+		<ul class="desktop-ul">
+			<li class="elements li-buttons"><a href="facturas"></a><i class="fas fa-bread-slice"></i>Facturas</li>
+			<li class="elements li-buttons"><a href="Pagar"></a><i class="fas fa-dollar-sign"></i>Pagar</li>
+			<li class="elements li-buttons"><a href="registro"></a><i class="fas fa-align-left"></i>Registro</li>
+			<li class="elements li-buttons"><a href="Login"></a><i class="fas fa-sign-in-alt"></i>Login</li>
+		</ul>
+	</nav>
+	<nav class="responsive-nav" >
+		<ul class="responsive-ul">
+			<li class="responsive-elements"><a href="facturas"></a>Facturas</li>
+			<li class="responsive-elements"><a href="Pagar"></a>Pagar</li>
+			<li class="responsive-elements"><a href="registro"></a>Registro</li>
+			<li class="responsive-elements"><a href="Login"></a>Login</li>
+		</ul>
+	</nav>
+	<section class="facturas">
+		<div class="all-facturas">
+			<div class="section-facturas">
+			<div class="factura">
+				<div class="img">
+				<img src="proyecto/IMG/cañoncitos.jpg">
+				</div>	
+				<div class="about-factura"></div>
+			</div>
+			<div class="factura">
+				<div class="img">
+				<img src="proyecto/IMG/medialuna_De_grasa.jpg">
+				</div>
+				<div class="about-factura"></div>
+			</div>
+			<div class="factura">
+				<div class="img">
+				<img src="proyecto/IMG/churros_de_chocolate.jpg">
+				</div>
+				<div class="about-factura"></div>
+			</div>
+			</div>
+			<div class="section-facturas">
+			<div class="factura">
+				<div class="img">
+				<img src="proyecto/IMG/donas_de_chocolate.jpg">
+				</div>
+				<div class="about-factura"></div>
+			</div>
+			<div class="factura">
+				<div class="img">
+				<img src="proyecto/IMG/vigilantes.jpg">
+				</div>
+				<div class="about-factura"></div>
+			</div>
+			<div class="factura">
+				<div class="img">
+				<img src="proyecto/IMG/pastelitos_de_membrillo.jpg">
+				</div>
+				<div class="about-factura"></div>
+			</div>
+			</div>
+		</div>
+		<div class="show-cart"></div>
+	</section>
+</header>
+</body>
+</html>
